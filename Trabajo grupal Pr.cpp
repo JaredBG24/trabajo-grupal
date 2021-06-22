@@ -1,3 +1,4 @@
+operacionesbasicas
 #include<iostream>
 using namespace std;
 int main(){
@@ -26,8 +27,11 @@ int main(){
     	}
     }
     
-    //mostrar matriz
-    cout<<"\n";
+    //mostrar matriz nahomi alcivar
+    
+    return 0;
+	
+cout<<"\n";
 cout<<"La matriz 1 es:"<<endl;
 for(int i=0;i<m;i++){
 	for(int j=0;j<n;j++){
