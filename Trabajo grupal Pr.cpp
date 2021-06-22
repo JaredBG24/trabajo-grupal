@@ -27,5 +27,29 @@ int main(){
     }
     
     //mostrar matriz
-    
+    cout<<"\n";
+cout<<"La matriz 1 es:"<<endl;
+for(int i=0;i<m;i++){
+	for(int j=0;j<n;j++){
+		cout<<"Ingrese numero:";
+		cin>>mat1[i][j];
+	}
+}
+
+cout<<"\n";
+cout<<"La matriz 2 es:"<<endl;
+for(int i=0;i<m;i++){
+	for(int j=0;j<n;j++){
+		cout<<"Ingrese numero:";
+		cin>>mat2[i][j];
+	}
+}
+//suma de matrices Jared Bernal
+   for(int i=0;i<m;i++){
+	for(int j=0;j<n;j++){
+		cout<<mat1[i][j]+mat2[i][j];
+	}
+	cout<<endl;	
+}
+
     return 0;
