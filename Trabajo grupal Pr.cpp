@@ -7,7 +7,7 @@ float matriz1[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
 float matriz2[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
 float suma[10],resta[10],producto[10],division[10];
 
-//Nahomi Alcivar
+//Nahomi Alcivar-Mostrar por pantalla
 
 for(int i=0;i<10;i++){
 		cout<<matriz1[i]<<" ";
@@ -16,79 +16,37 @@ for(int i=0;i<10;i++){
 	for(int i=0;i<10;i++){
 		cout<<matriz2[i]<<" ";
 	}
-//suma de matrices-Jared Bernal
-#include<iostream>
 
-using namespace std;
+//Jared Bernal Galarraga-Suma
 
-int main(){
-	int c=0, i=0;
-float matriz1[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
-float matriz2[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
-float suma[10],resta[10],producto[10],division[10];
-	
-	cout<<"La suma de las dos matrices es la siguiente: "<<endl;
+cout<<"La suma de las dos matrices es la siguiente: "<<endl;
 	for(i=0;i<10;i++){
-		suma[i] = matriz1[i] + matriz2[i];
-		cout << suma[i]<<endl;
+	suma[i] = matriz1[i] + matriz2[i];
+	cout << suma[i]<<endl;
 	}
-	return 0;
-}
+
+//Anthony Martinez-Resta	
 	
-
-//Resta de matrices Anthony Martinez
-#include<iostream>
-
-using namespace std;
-
-int main(){
-	int c=0, i=0;
-float matriz1[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
-float matriz2[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
-float suma[10],resta[10],producto[10],division[10];
-	
-	cout<<"El resultado de la resta de las dos matrices es el siguiente: "<<endl;
+cout<<"La resta de las dos matrices es la siguiente: "<<endl;
 	for(i=0;i<10;i++){
-		resta[i] = matriz1[i] - matriz2[i];
-		cout << resta[i]<<endl;
+	resta[i] = matriz1[i] - matriz2[i];
+	cout << resta[i]<<endl;
 	}
-	return 0;
-}
 	
-//Jeremy Leonardo-Multiplicacion de matrices
-#include<iostream>
+//Jeremy Leonardo-Multiplicacion
 
-using namespace std;
-	
-int main(){
-int i=0;
-float matriz1[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
-float matriz2[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
-float suma[10],resta[10],producto[10],division[10];
-
-        cout<<"La multiplicación de las dos matrices es la siguiente: "<<endl;
+cout<<"La multiplicación de las dos matrices es la siguiente: "<<endl;
 	for(i=0;i<10;i++){
-	        producto[i] = matriz1[i] * matriz2[i];
-	        cout << producto[i]<<endl;
+	producto[i] = matriz1[i] * matriz2[i];
+	cout << producto[i]<<endl;
 	}
-	return 0;
-}
-	
-//division de matrices-Jared Bernal
-#include<iostream>
-using namespace std;
-int main()
-{
-int i=0;
-float matriz1[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
-float matriz2[10]={2.3,4.5,6.5,0.5,6.1,5.5,1.2,2.4,6.5,9.1};
-float suma[10],resta[10],producto[10],division[10];
 
+//Jared Bernal Galarraga-Division
+	
 cout<<"La division de las dos matrices es la siguiente: "<<endl;
 	for(i=0;i<10;i++){
-		division[i] = matriz1[i] / matriz2[i];
-		cout << division[i]<<endl;
+	division[i] = matriz1[i] / matriz2[i];
+	cout << division[i]<<endl;
 	}
 	return 0;
 }
-
