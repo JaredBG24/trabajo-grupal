@@ -78,3 +78,25 @@ int main()
 
     return 0;
 }
+
+//  CALCULAR LA POTENCIA DE  UNA MATRIZ - ANTHONY MARTINEZ
+#include <iostream>
+
+#include<stdlib.h>
+
+#include<cmath>
+
+using 
+namespace std;
+
+
+void potencia (float matriz[5][5], int n, float resultado[5][5])
+{
+    
+for (int i = 0;i<5;i++)
+        
+for (int j = 0;j<5;j++)
+        
+resultado[i][j] = pow(matriz[i][j], n);
+
+}
